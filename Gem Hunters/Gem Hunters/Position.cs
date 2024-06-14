@@ -27,10 +27,10 @@ public class Player
     {
         switch (direction)
         {
-            case 'U': Position.Y -= 1; break;
-            case 'D': Position.Y += 1; break;
-            case 'L': Position.X -= 1; break;
-            case 'R': Position.X += 1; break;
+            case 'U': Position.X -= 1; break;
+            case 'D': Position.X += 1; break;
+            case 'L': Position.Y -= 1; break;
+            case 'R': Position.Y += 1; break;
         }
     }
 }
