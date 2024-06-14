@@ -59,10 +59,10 @@ public class Board
 
         switch (direction)
         {
-            case 'U': newPosition.Y -= 1; break;
-            case 'D': newPosition.Y += 1; break;
-            case 'L': newPosition.X -= 1; break;
-            case 'R': newPosition.X += 1; break;
+            case 'U': newPosition.X -= 1; break;
+            case 'D': newPosition.X += 1; break;
+            case 'L': newPosition.Y -= 1; break;
+            case 'R': newPosition.Y += 1; break;
         }
 
         if (newPosition.X < 0 || newPosition.X >= Size || newPosition.Y < 0 || newPosition.Y >= Size)
