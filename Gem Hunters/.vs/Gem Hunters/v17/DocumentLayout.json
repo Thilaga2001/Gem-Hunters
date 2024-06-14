@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|c:\\users\\thila\\onedrive\\documents\\github\\gem-hunters\\gem hunters\\gem hunters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|solutionrelative:gem hunters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|c:\\users\\thila\\onedrive\\documents\\github\\gem-hunters\\gem hunters\\gem hunters\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|solutionrelative:gem hunters\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|c:\\users\\thila\\onedrive\\documents\\github\\gem-hunters\\gem hunters\\gem hunters\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|solutionrelative:gem hunters\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|c:\\users\\thila\\onedrive\\documents\\github\\gem-hunters\\gem hunters\\gem hunters\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|solutionrelative:gem hunters\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +34,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Position.cs",
+              "RelativeDocumentMoniker": "Gem Hunters\\Position.cs",
+              "ToolTip": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Position.cs",
+              "RelativeToolTip": "Gem Hunters\\Position.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA3wC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:57:57.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Game.cs",
+              "RelativeDocumentMoniker": "Gem Hunters\\Game.cs",
+              "ToolTip": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Game.cs",
+              "RelativeToolTip": "Gem Hunters\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:45:09.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Board.cs",
+              "RelativeDocumentMoniker": "Gem Hunters\\Board.cs",
+              "ToolTip": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Board.cs",
+              "RelativeToolTip": "Gem Hunters\\Board.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:41:55.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Program.cs",
               "RelativeDocumentMoniker": "Gem Hunters\\Program.cs",
-              "ToolTip": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Program.cs*",
-              "RelativeToolTip": "Gem Hunters\\Program.cs*",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwHgAAAAAAAAA",
+              "ToolTip": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Program.cs",
+              "RelativeToolTip": "Gem Hunters\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T04:31:40.985Z",
               "EditorCaption": ""

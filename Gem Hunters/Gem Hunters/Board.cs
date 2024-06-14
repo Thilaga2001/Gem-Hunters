@@ -1,4 +1,6 @@
-﻿public class Board
+﻿
+
+public class Board
 {
     public Cell[,] Grid { get; set; }
     private const int Size = 6;
@@ -51,4 +53,41 @@
             Console.WriteLine();
         }
     }
+    public bool IsValidMove(Player player, char direction)
+    {
+        Position newPosition = new Position(player.Position.X, player.Position.Y);
+
+        switch (direction)
+        {
+            case 'U': newPosition.Y -= 1; break;
+            case 'D': newPosition.Y += 1; break;
+            case 'L': newPosition.X -= 1; break;
+            case 'R': newPosition.X += 1; break;
+        }
+
+        if (newPosition.X < 0 || newPosition.X >= Size || newPosition.Y < 0 || newPosition.Y >= Size)
+        {
+            return false;
+        }
+
+        return Grid[newPosition.X, newPosition.Y].Occupant != "O";
+    }
+
+    public void CollectGem(Player player)
+    {
+        if (Grid[player.Position.X, player.Position.Y].Occupant == "G")
+        {
+            player.GemCount++;
+            Grid[player.Position.X, player.Position.Y].Occupant = "-";
+        }
+    }
+
+    public void UpdatePlayerPosition(Player player, char direction)
+    {
+        Grid[player.Position.X, player.Position.Y].Occupant = "-";
+        player.Move(direction);
+        CollectGem(player);
+        Grid[player.Position.X, player.Position.Y].Occupant = player.Name;
+    }
 }
+

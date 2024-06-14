@@ -1,13 +1,18 @@
 ﻿using System;
-
-
-public class Player
+namespace GemHunters
 {
-    static void Main(string[] args)
+
+
+    public class Player
     {
-        Console.WriteLine("Gem Hunters game setup complete.");
-        Board board = new Board();
-        board.Display();
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Gem Hunters game setup complete.");
+            Board board = new Board();
+            board.Display();
+
+            Game game = new Game();
+            game.Start();
+        }
     }
-}
-      
+} 
