@@ -23,11 +23,17 @@ public class Game
         {
             Console.Clear();
             Board.Display();
-            Console.WriteLine($"{CurrentTurn.Name}'s turn. Gems collected: {CurrentTurn.GemCount}");
+            Console.WriteLine($"{CurrentTurn.Name}'s turn. Gems collected: {CurrentTurn.GemCount}\n");
             Console.Write("Enter move (U/D/L/R): ");
-            char move = Console.ReadLine().ToUpper()[0];
+            char move ='a';
 
-            if (Board.IsValidMove(CurrentTurn, move))
+
+                try
+            {
+                move = Console.ReadLine().ToUpper()[0];
+         
+           
+                if (Board.IsValidMove(CurrentTurn, move))
             {
                 Board.UpdatePlayerPosition(CurrentTurn, move);
                 TotalTurns++;
@@ -36,7 +42,14 @@ public class Game
             else
             {
                 Console.WriteLine("Invalid move! Try again.");
+                Console.ReadKey();
+                }
             }
+            catch (Exception e)
+            {
+                Console.WriteLine("Invalid move! Try again.");
+                Console.ReadKey();
+            };
         }
         AnnounceWinner();
     }

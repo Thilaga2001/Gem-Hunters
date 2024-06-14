@@ -55,17 +55,25 @@ public class Board
     }
     public bool IsValidMove(Player player, char direction)
     {
+        
         Position newPosition = new Position(player.Position.X, player.Position.Y);
-
-        switch (direction)
+        if ((direction == 'U') || (direction == 'D') || (direction == 'L') || (direction == ('R')))
         {
-            case 'U': newPosition.X -= 1; break;
-            case 'D': newPosition.X += 1; break;
-            case 'L': newPosition.Y -= 1; break;
-            case 'R': newPosition.Y += 1; break;
-        }
 
-        if (newPosition.X < 0 || newPosition.X >= Size || newPosition.Y < 0 || newPosition.Y >= Size)
+            switch (direction)
+            {
+                case 'U': newPosition.X -= 1; break;
+                case 'D': newPosition.X += 1; break;
+                case 'L': newPosition.Y -= 1; break;
+                case 'R': newPosition.Y += 1; break;
+            }
+
+            if (newPosition.X < 0 || newPosition.X >= Size || newPosition.Y < 0 || newPosition.Y >= Size)
+            {
+                return false;
+            }
+        }
+        else
         {
             return false;
         }
