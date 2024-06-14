@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|c:\\users\\thila\\onedrive\\documents\\github\\gem-hunters\\gem hunters\\gem hunters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28039692-CE30-4CCA-AE58-954F062DD00B}|Gem Hunters\\Gem Hunters.csproj|solutionrelative:gem hunters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Program.cs",
+              "RelativeDocumentMoniker": "Gem Hunters\\Program.cs",
+              "ToolTip": "C:\\Users\\thila\\OneDrive\\Documents\\GitHub\\Gem-Hunters\\Gem Hunters\\Gem Hunters\\Program.cs",
+              "RelativeToolTip": "Gem Hunters\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T04:31:40.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
