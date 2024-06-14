@@ -24,9 +24,11 @@ public class Game
             Console.Clear();
             Board.Display();
             Console.WriteLine($"{CurrentTurn.Name}'s turn. Gems collected: {CurrentTurn.GemCount}\n");
+            Console.WriteLine("P1's no of Gem Collected: " +Player1.GemCount);
+            Console.WriteLine("P2's no of Gem Collected: " + Player2.GemCount);
+            Console.WriteLine("No of turns remaining: "+ (30-TotalTurns));
             Console.Write("Enter move (U/D/L/R): ");
             char move ='a';
-
 
                 try
             {
@@ -57,6 +59,7 @@ public class Game
     private void SwitchTurn()
     {
         CurrentTurn = (CurrentTurn == Player1) ? Player2 : Player1;
+
     }
 
     private bool IsGameOver()
