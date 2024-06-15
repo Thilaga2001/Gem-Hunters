@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gem Hunters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4843c03a2785089b590d26393c3a72f2def4b7b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f41e728a8ac7b6067c51e3f47088200c6762d2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gem Hunters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gem Hunters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
